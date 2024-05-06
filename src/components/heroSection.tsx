@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="flex flex-col-reverse lg:gap-0 gap-20 lg:flex-row items-center justify-between min-h-[60vh] ">
       <div className="space-y-4 text-center lg:text-left">
         <h2 className="text-4xl xl:text-7xl lg:text-6xl font-bold">
-          {"Nice to meet you 👋 <br /> i'm"}
+          {`Nice to meet you 👋 ${(<br />)} i'm`}
           <span className="underline underline-offset-8 decoration-green-500">
             Chettar.
           </span>
