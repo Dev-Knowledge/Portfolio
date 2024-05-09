@@ -9,8 +9,9 @@ function HeroSection() {
       <div className="space-y-4 text-center lg:text-left">
         <h2 className="text-4xl xl:text-7xl lg:text-6xl font-bold">
           {`Nice to meet you 👋`}
+          <br />
           <span className="underline underline-offset-8 decoration-green-500">
-            i'm Chettar.
+            {"i'm Chettar."}
           </span>
         </h2>
         <p className="md:w-96 text-lg text-gray-300">
